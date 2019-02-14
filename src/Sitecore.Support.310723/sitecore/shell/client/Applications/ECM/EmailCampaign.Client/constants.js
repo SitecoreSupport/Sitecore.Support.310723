@@ -45,7 +45,7 @@
         CREATE_REPORT_REPEATER_ITEM: "EXM/CreateReportRepeaterItem",
         CURRENT_STATE: "EXM/CurrentState",
         DELETE_FOLDER: "EXM/DeleteFolder",
-        DELETE_MESSAGE: "EXM/CustomDeleteMessage",
+        DELETE_MESSAGE: "EXM/SupportDeleteMessage",
         DUPLICATE_MESSAGE_VARIANT: "EXM/DuplicateMessageVariant",
         EMAIL_CHANNEL_PERFORMANCE_REPORT_KEY: "EXM/EmailChannelPerformanceReportKey",
         ENGAGEMENT_PLAN_URL: "EXM/EngagementPlanUrl",
