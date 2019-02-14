@@ -20,7 +20,7 @@ namespace Sitecore.EmailCampaign.Server.Controllers.Message
   [ServicesController("EXM.SupportDeleteMessage")]
   public class SupportDeleteMessageController : ServicesApiController
   {
-    private readonly ItemUtilExt util;
+    private ItemUtilExt util;
 
     private readonly EcmDataProvider _dataProvider;
 
@@ -76,6 +76,7 @@ namespace Sitecore.EmailCampaign.Server.Controllers.Message
       MessageBarResponse messageBarResponse = new MessageBarResponse();
       try
       {
+        util = new ItemUtilExt();
         Item item = this.util.GetItem(data.Value);
         if (item == null)
         {
