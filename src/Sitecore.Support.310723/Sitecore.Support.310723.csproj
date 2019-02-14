@@ -88,7 +88,6 @@
     <Compile Include="EmailCampaign\Server\Controllers\Message\DeleteMessageController.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\Sitecore.Support.310723.config" />
     <Content Include="sitecore\shell\client\Applications\ECM\EmailCampaign.Client\constants.js" />
   </ItemGroup>
   <ItemGroup>
